@@ -43,7 +43,7 @@
   - Wire up onAnswerSelect handler to child components
   - _Requirements: 1.1, 1.3, 1.4, 2.1, 2.2, 2.4_
 
-- [ ] 6. Create ScoreBoard component
+- [x] 6. Create ScoreBoard component
   - Build ScoreBoard component to display correct and incorrect counts
   - Show current question progress (e.g., "Question 5 of 15")
   - Style for clear visibility and fixed positioning
