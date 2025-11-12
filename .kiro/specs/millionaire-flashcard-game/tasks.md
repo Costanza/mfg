@@ -36,7 +36,7 @@
   - Disable button interaction after answer is selected
   - _Requirements: 1.3, 1.4, 2.1, 2.2, 2.3, 2.4_
 
-- [ ] 5. Create Question component
+- [x] 5. Create Question component
   - Build Question component to display question text and four answer options
   - Map through answers array to render four AnswerOption components with A, B, C, D labels
   - Pass selectedAnswer and correctAnswer props to determine visual feedback

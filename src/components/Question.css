@@ -1,0 +1,33 @@
+.question-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.question-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.answers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .question-text {
+        font-size: 1.75rem;
+    }
+
+    .answers-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
