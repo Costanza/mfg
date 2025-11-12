@@ -7,13 +7,13 @@
   - Set up basic configuration files
   - _Requirements: 5.1, 5.2_
 
-- [ ] 2. Create sample questions data file
+- [x] 2. Create sample questions data file
   - Create questions.json in public/data directory
   - Populate with Millionaire Hotseat-style trivia questions
   - Ensure JSON structure matches design specification with id, question, answers array, and correctAnswer index
   - _Requirements: 1.2, 5.2_
 
-- [ ] 3. Implement useGameState custom hook
+- [x] 3. Implement useGameState custom hook
   - Create useGameState.js hook file
   - Implement state management for questions, currentQuestionIndex, selectedAnswer, score, and gameComplete
   - Write logic to load questions from JSON file on mount
@@ -22,7 +22,7 @@
   - Implement restartGame function to reset all state
   - _Requirements: 1.2, 2.1, 2.2, 3.1, 3.2, 4.2, 5.3_
 
-- [ ] 3.1 Write unit tests for useGameState hook
+- [x] 3.1 Write unit tests for useGameState hook
   - Test score calculation logic
   - Test question progression
   - Test game completion detection
