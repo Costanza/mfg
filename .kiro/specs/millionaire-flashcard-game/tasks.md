@@ -29,7 +29,7 @@
   - Test restart functionality
   - _Requirements: 3.1, 3.2, 4.2_
 
-- [ ] 4. Create AnswerOption component
+- [x] 4. Create AnswerOption component
   - Build AnswerOption component with props for text, index, label, selection state, and feedback
   - Implement click handler that calls onSelect callback
   - Add conditional styling for default, selected, correct, and incorrect states

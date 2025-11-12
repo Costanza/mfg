@@ -1,0 +1,83 @@
+.answer-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border: 2px solid #444;
+    background-color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-size: 1rem;
+}
+
+.answer-option:hover:not(:disabled) {
+    border-color: #646cff;
+    background-color: #2a2a2a;
+}
+
+.answer-option:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+    outline-offset: 2px;
+}
+
+.answer-option:disabled {
+    cursor: not-allowed;
+}
+
+.answer-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-width: 2rem;
+    text-align: center;
+}
+
+.answer-text {
+    flex: 1;
+}
+
+/* Selected state (before feedback) */
+.answer-option.selected {
+    border-color: #2196F3;
+    background-color: rgba(33, 150, 243, 0.2);
+}
+
+/* Correct answer state */
+.answer-option.correct {
+    border-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.2);
+}
+
+/* Incorrect answer state */
+.answer-option.incorrect {
+    border-color: #F44336;
+    background-color: rgba(244, 67, 54, 0.2);
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    .answer-option {
+        background-color: #f9f9f9;
+        color: #213547;
+        border-color: #ddd;
+    }
+
+    .answer-option:hover:not(:disabled) {
+        background-color: #efefef;
+        border-color: #646cff;
+    }
+
+    .answer-option.selected {
+        background-color: rgba(33, 150, 243, 0.15);
+    }
+
+    .answer-option.correct {
+        background-color: rgba(76, 175, 80, 0.15);
+    }
+
+    .answer-option.incorrect {
+        background-color: rgba(244, 67, 54, 0.15);
+    }
+}
