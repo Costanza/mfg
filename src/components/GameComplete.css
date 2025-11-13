@@ -1,0 +1,119 @@
+.game-complete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.completion-card {
+    background-color: #1a1a1a;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 3rem 2.5rem;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.completion-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 1rem 0;
+}
+
+.completion-message {
+    font-size: 1.125rem;
+    color: #999;
+    margin: 0 0 2.5rem 0;
+}
+
+.final-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.final-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.final-stat-value {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.final-stat-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999;
+}
+
+.correct-final .final-stat-value {
+    color: #4CAF50;
+}
+
+.incorrect-final .final-stat-value {
+    color: #F44336;
+}
+
+.percentage-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 2rem;
+    border-top: 2px solid #333;
+}
+
+.percentage-value {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #646cff;
+    line-height: 1;
+}
+
+.percentage-label {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #999;
+}
+
+@media (max-width: 640px) {
+    .game-complete {
+        padding: 1rem;
+    }
+
+    .completion-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .completion-title {
+        font-size: 2rem;
+    }
+
+    .completion-message {
+        font-size: 1rem;
+    }
+
+    .final-stats {
+        gap: 2rem;
+    }
+
+    .final-stat-value {
+        font-size: 2.5rem;
+    }
+
+    .percentage-value {
+        font-size: 3rem;
+    }
+}

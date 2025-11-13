@@ -1,0 +1,63 @@
+.game-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.control-button {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #646cff;
+    background-color: #646cff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    min-width: 160px;
+}
+
+.control-button:hover {
+    background-color: #535bf2;
+    border-color: #535bf2;
+}
+
+.control-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+    outline-offset: 2px;
+}
+
+.control-button:active {
+    transform: translateY(1px);
+}
+
+.restart-button {
+    background-color: transparent;
+    color: #646cff;
+}
+
+.restart-button:hover {
+    background-color: rgba(100, 108, 255, 0.1);
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    .control-button {
+        color: white;
+    }
+
+    .restart-button {
+        color: #646cff;
+    }
+}
+
+@media (max-width: 640px) {
+    .game-controls {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .control-button {
+        width: 100%;
+    }
+}
