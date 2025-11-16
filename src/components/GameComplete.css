@@ -27,7 +27,34 @@
 .completion-message {
     font-size: 1.125rem;
     color: #999;
-    margin: 0 0 2.5rem 0;
+    margin: 0 0 2rem 0;
+}
+
+.prize-won {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+.prize-label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #000;
+    font-weight: 600;
+}
+
+.prize-amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
 }
 
 .final-stats {
@@ -119,7 +146,7 @@
 @media (max-width: 640px) {
     .game-complete {
         padding: 1rem;
-        margin-top: -8rem;
+        margin-top: 0;
     }
 
     .completion-card {
@@ -127,11 +154,15 @@
     }
 
     .completion-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .completion-message {
         font-size: 1rem;
+    }
+
+    .prize-amount {
+        font-size: 2.5rem;
     }
 
     .final-stats {

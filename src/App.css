@@ -2,7 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
-  padding-top: 8rem;
+  padding-right: 320px;
   text-align: center;
   min-height: 100vh;
 }
@@ -81,7 +81,8 @@
 @media (max-width: 768px) {
   .app {
     padding: 1.5rem;
-    padding-top: 10rem;
+    padding-right: 1.5rem;
+    padding-top: 2rem;
   }
 
   .app h1 {
@@ -92,7 +93,8 @@
 @media (max-width: 640px) {
   .app {
     padding: 1rem;
-    padding-top: 12rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
   }
 
   .app h1 {

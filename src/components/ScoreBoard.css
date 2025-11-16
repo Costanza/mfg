@@ -1,26 +1,36 @@
 .scoreboard {
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
+    bottom: 0;
+    width: 300px;
     background-color: #1a1a1a;
-    border-bottom: 2px solid #333;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-left: 2px solid #333;
+    padding: 1.5rem;
     z-index: 100;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .scoreboard-progress {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .progress-text {
     font-size: 1.1rem;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.87);
+}
+
+.prize-text {
+    font-size: 1.25rem;
+    color: #FFD700;
+    font-weight: 700;
 }
 
 .scoreboard-stats {
@@ -55,6 +65,60 @@
     color: #F44336;
 }
 
+.prize-ladder {
+    margin-top: 1rem;
+}
+
+.prize-ladder h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #999;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.ladder-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.ladder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.ladder-item.current {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: 700;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.ladder-item.completed {
+    background-color: rgba(76, 175, 80, 0.2);
+    color: #4CAF50;
+}
+
+.ladder-question {
+    font-size: 0.875rem;
+}
+
+.ladder-prize {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
 @media (prefers-color-scheme: light) {
     .scoreboard {
         background-color: #ffffff;
@@ -71,10 +135,13 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .scoreboard {
-        flex-direction: column;
-        gap: 1rem;
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-bottom: 2px solid #333;
         padding: 1rem;
     }
 
@@ -84,13 +151,22 @@
 
     .scoreboard-stats {
         gap: 1.5rem;
+        justify-content: center;
     }
 
     .progress-text {
         font-size: 1rem;
     }
 
+    .prize-text {
+        font-size: 1.1rem;
+    }
+
     .stat-value {
         font-size: 1.25rem;
+    }
+
+    .prize-ladder {
+        display: none;
     }
 }

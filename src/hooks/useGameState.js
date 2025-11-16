@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { selectGameQuestions, TOTAL_QUESTIONS } from '../utils/difficultyLevels';
 
 // Fallback sample questions in case JSON loading fails
 const FALLBACK_QUESTIONS = [
@@ -63,9 +64,9 @@ export function useGameState() {
                     throw new Error('No questions available');
                 }
 
-                // Shuffle questions for random order
-                const shuffledQuestions = [...data.questions].sort(() => Math.random() - 0.5);
-                setQuestions(shuffledQuestions);
+                // Select 15 questions with increasing difficulty
+                const gameQuestions = selectGameQuestions(data.questions);
+                setQuestions(gameQuestions);
                 setLoading(false);
             } catch (err) {
                 console.warn('Failed to load questions from JSON:', err.message);
@@ -103,7 +104,7 @@ export function useGameState() {
     const nextQuestion = () => {
         const nextIndex = currentQuestionIndex + 1;
 
-        if (nextIndex >= questions.length) {
+        if (nextIndex >= TOTAL_QUESTIONS) {
             setGameComplete(true);
         } else {
             setCurrentQuestionIndex(nextIndex);
@@ -113,13 +114,31 @@ export function useGameState() {
 
     // Restart the game
     const restartGame = () => {
-        // Shuffle questions again for a new game
-        const shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
-        setQuestions(shuffledQuestions);
-        setCurrentQuestionIndex(0);
-        setSelectedAnswer(null);
-        setScore({ correct: 0, incorrect: 0 });
-        setGameComplete(false);
+        // Load questions from JSON again to get a fresh set
+        setLoading(true);
+        fetch('/data/questions.json')
+            .then(response => response.json())
+            .then(data => {
+                // Select new 15 questions with increasing difficulty
+                const gameQuestions = selectGameQuestions(data.questions);
+                setQuestions(gameQuestions);
+                setCurrentQuestionIndex(0);
+                setSelectedAnswer(null);
+                setScore({ correct: 0, incorrect: 0 });
+                setGameComplete(false);
+                setLoading(false);
+            })
+            .catch(err => {
+                console.warn('Failed to reload questions:', err.message);
+                // If reload fails, just shuffle existing questions
+                const shuffledQuestions = [...questions].sort(() => Math.random() - 0.5).slice(0, TOTAL_QUESTIONS);
+                setQuestions(shuffledQuestions);
+                setCurrentQuestionIndex(0);
+                setSelectedAnswer(null);
+                setScore({ correct: 0, incorrect: 0 });
+                setGameComplete(false);
+                setLoading(false);
+            });
     };
 
     // Retry loading questions from JSON
@@ -139,9 +158,9 @@ export function useGameState() {
                 if (!data.questions || data.questions.length === 0) {
                     throw new Error('No questions available');
                 }
-                // Shuffle questions for random order
-                const shuffledQuestions = [...data.questions].sort(() => Math.random() - 0.5);
-                setQuestions(shuffledQuestions);
+                // Select 15 questions with increasing difficulty
+                const gameQuestions = selectGameQuestions(data.questions);
+                setQuestions(gameQuestions);
                 setLoading(false);
                 // Reset game state when successfully loading new questions
                 setCurrentQuestionIndex(0);
@@ -164,7 +183,7 @@ export function useGameState() {
         selectedAnswer,
         score,
         currentQuestionIndex,
-        totalQuestions: questions.length,
+        totalQuestions: TOTAL_QUESTIONS,
         gameComplete,
         loading,
         error,
