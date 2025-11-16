@@ -77,11 +77,6 @@ function App() {
           onAnswerSelect={selectAnswer}
         />
       )}
-      <GameControls
-        onNext={nextQuestion}
-        showNext={selectedAnswer !== null}
-        showRestart={false}
-      />
     </div>
   );
 }

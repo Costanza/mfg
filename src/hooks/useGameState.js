@@ -98,6 +98,18 @@ export function useGameState() {
         } else {
             setScore(prev => ({ ...prev, incorrect: prev.incorrect + 1 }));
         }
+
+        // Auto-advance to next question after 2 seconds
+        setTimeout(() => {
+            const nextIndex = currentQuestionIndex + 1;
+
+            if (nextIndex >= TOTAL_QUESTIONS) {
+                setGameComplete(true);
+            } else {
+                setCurrentQuestionIndex(nextIndex);
+                setSelectedAnswer(null);
+            }
+        }, 2000);
     };
 
     // Advance to next question
