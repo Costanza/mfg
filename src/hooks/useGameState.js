@@ -63,7 +63,9 @@ export function useGameState() {
                     throw new Error('No questions available');
                 }
 
-                setQuestions(data.questions);
+                // Shuffle questions for random order
+                const shuffledQuestions = [...data.questions].sort(() => Math.random() - 0.5);
+                setQuestions(shuffledQuestions);
                 setLoading(false);
             } catch (err) {
                 console.warn('Failed to load questions from JSON:', err.message);
@@ -111,6 +113,9 @@ export function useGameState() {
 
     // Restart the game
     const restartGame = () => {
+        // Shuffle questions again for a new game
+        const shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
+        setQuestions(shuffledQuestions);
         setCurrentQuestionIndex(0);
         setSelectedAnswer(null);
         setScore({ correct: 0, incorrect: 0 });
@@ -134,7 +139,9 @@ export function useGameState() {
                 if (!data.questions || data.questions.length === 0) {
                     throw new Error('No questions available');
                 }
-                setQuestions(data.questions);
+                // Shuffle questions for random order
+                const shuffledQuestions = [...data.questions].sort(() => Math.random() - 0.5);
+                setQuestions(shuffledQuestions);
                 setLoading(false);
                 // Reset game state when successfully loading new questions
                 setCurrentQuestionIndex(0);

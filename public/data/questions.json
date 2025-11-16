@@ -164,6 +164,3306 @@
                 "Ringgit"
             ],
             "correctAnswer": 2
+        },
+        {
+            "id": "q16",
+            "question": "What is the capital of France?",
+            "answers": [
+                "London",
+                "Berlin",
+                "Paris",
+                "Madrid"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q17",
+            "question": "Which river is the longest in the world?",
+            "answers": [
+                "Amazon River",
+                "Nile River",
+                "Yangtze River",
+                "Mississippi River"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q18",
+            "question": "In which country would you find the Great Barrier Reef?",
+            "answers": [
+                "Indonesia",
+                "Philippines",
+                "Australia",
+                "Thailand"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q19",
+            "question": "What is the smallest country in the world by area?",
+            "answers": [
+                "Monaco",
+                "Vatican City",
+                "San Marino",
+                "Liechtenstein"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q20",
+            "question": "Which desert is the largest hot desert in the world?",
+            "answers": [
+                "Gobi Desert",
+                "Kalahari Desert",
+                "Sahara Desert",
+                "Arabian Desert"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q21",
+            "question": "What is the capital of Canada?",
+            "answers": [
+                "Toronto",
+                "Vancouver",
+                "Montreal",
+                "Ottawa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "q22",
+            "question": "Which mountain range separates Europe from Asia?",
+            "answers": [
+                "Alps",
+                "Himalayas",
+                "Ural Mountains",
+                "Andes"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q23",
+            "question": "What is the largest island in the world?",
+            "answers": [
+                "New Guinea",
+                "Borneo",
+                "Greenland",
+                "Madagascar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q24",
+            "question": "Which African country has the most pyramids?",
+            "answers": [
+                "Egypt",
+                "Sudan",
+                "Libya",
+                "Ethiopia"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q25",
+            "question": "What is the capital of Brazil?",
+            "answers": [
+                "Rio de Janeiro",
+                "São Paulo",
+                "Brasília",
+                "Salvador"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q26",
+            "question": "Which sea is the saltiest natural body of water on Earth?",
+            "answers": [
+                "Red Sea",
+                "Dead Sea",
+                "Caspian Sea",
+                "Black Sea"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q27",
+            "question": "In which country is the ancient city of Petra located?",
+            "answers": [
+                "Egypt",
+                "Jordan",
+                "Syria",
+                "Iraq"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q28",
+            "question": "What is the highest waterfall in the world?",
+            "answers": [
+                "Niagara Falls",
+                "Victoria Falls",
+                "Angel Falls",
+                "Iguazu Falls"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q29",
+            "question": "Which country has the longest coastline in the world?",
+            "answers": [
+                "Russia",
+                "Indonesia",
+                "Canada",
+                "Australia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q30",
+            "question": "What is the capital of New Zealand?",
+            "answers": [
+                "Auckland",
+                "Wellington",
+                "Christchurch",
+                "Hamilton"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q31",
+            "question": "Which strait separates Africa from Europe?",
+            "answers": [
+                "Bering Strait",
+                "Strait of Gibraltar",
+                "Strait of Hormuz",
+                "Bosphorus Strait"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q32",
+            "question": "In which country would you find Machu Picchu?",
+            "answers": [
+                "Chile",
+                "Peru",
+                "Bolivia",
+                "Ecuador"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q33",
+            "question": "What is the deepest point in the world's oceans?",
+            "answers": [
+                "Puerto Rico Trench",
+                "Java Trench",
+                "Mariana Trench",
+                "Tonga Trench"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q34",
+            "question": "Which European capital city is divided by the Danube River?",
+            "answers": [
+                "Vienna",
+                "Budapest",
+                "Belgrade",
+                "Bratislava"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q35",
+            "question": "What is the largest lake in Africa?",
+            "answers": [
+                "Lake Tanganyika",
+                "Lake Malawi",
+                "Lake Victoria",
+                "Lake Chad"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q36",
+            "question": "Which country is home to the ancient ruins of Angkor Wat?",
+            "answers": [
+                "Thailand",
+                "Vietnam",
+                "Cambodia",
+                "Laos"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q37",
+            "question": "What is the capital of Iceland?",
+            "answers": [
+                "Akureyri",
+                "Reykjavik",
+                "Keflavik",
+                "Hafnarfjordur"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q38",
+            "question": "Which volcano destroyed the ancient Roman city of Pompeii?",
+            "answers": [
+                "Mount Etna",
+                "Mount Vesuvius",
+                "Stromboli",
+                "Vulcano"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q39",
+            "question": "What is the only country that borders both the Atlantic and Indian Oceans?",
+            "answers": [
+                "Brazil",
+                "South Africa",
+                "Australia",
+                "Morocco"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q40",
+            "question": "Which Asian country consists of over 7,000 islands?",
+            "answers": [
+                "Indonesia",
+                "Japan",
+                "Philippines",
+                "Malaysia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q41",
+            "question": "In which year did Christopher Columbus first reach the Americas?",
+            "answers": [
+                "1492",
+                "1488",
+                "1500",
+                "1476"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q42",
+            "question": "Who was the first President of the United States?",
+            "answers": [
+                "Thomas Jefferson",
+                "John Adams",
+                "George Washington",
+                "Benjamin Franklin"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q43",
+            "question": "Which ancient wonder of the world still stands today?",
+            "answers": [
+                "Hanging Gardens of Babylon",
+                "Great Pyramid of Giza",
+                "Colossus of Rhodes",
+                "Lighthouse of Alexandria"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q44",
+            "question": "What year did the Berlin Wall fall?",
+            "answers": [
+                "1987",
+                "1988",
+                "1989",
+                "1990"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q45",
+            "question": "Who was the British Prime Minister during most of World War II?",
+            "answers": [
+                "Neville Chamberlain",
+                "Winston Churchill",
+                "Clement Attlee",
+                "Anthony Eden"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q46",
+            "question": "Which empire was ruled by Julius Caesar?",
+            "answers": [
+                "Greek Empire",
+                "Persian Empire",
+                "Roman Empire",
+                "Ottoman Empire"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q47",
+            "question": "In which year did the Titanic sink?",
+            "answers": [
+                "1910",
+                "1911",
+                "1912",
+                "1913"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q48",
+            "question": "Who was the first person to walk on the moon?",
+            "answers": [
+                "Buzz Aldrin",
+                "Neil Armstrong",
+                "Yuri Gagarin",
+                "John Glenn"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q49",
+            "question": "Which French military leader crowned himself Emperor in 1804?",
+            "answers": [
+                "Louis XIV",
+                "Napoleon Bonaparte",
+                "Charles de Gaulle",
+                "Louis XVI"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q50",
+            "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
+            "answers": [
+                "Santa Maria",
+                "Mayflower",
+                "Endeavour",
+                "Victoria"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q51",
+            "question": "Which war was fought between the North and South regions of the United States?",
+            "answers": [
+                "Revolutionary War",
+                "War of 1812",
+                "Civil War",
+                "Spanish-American War"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q52",
+            "question": "Who wrote the Declaration of Independence?",
+            "answers": [
+                "George Washington",
+                "Benjamin Franklin",
+                "Thomas Jefferson",
+                "John Adams"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q53",
+            "question": "Which ancient civilization built Machu Picchu?",
+            "answers": [
+                "Aztec",
+                "Maya",
+                "Inca",
+                "Olmec"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q54",
+            "question": "In which year did World War I begin?",
+            "answers": [
+                "1912",
+                "1913",
+                "1914",
+                "1915"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q55",
+            "question": "Who was the longest-reigning British monarch before Queen Elizabeth II?",
+            "answers": [
+                "Queen Victoria",
+                "King George III",
+                "King Henry VIII",
+                "Queen Elizabeth I"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q56",
+            "question": "Which treaty ended World War I?",
+            "answers": [
+                "Treaty of Paris",
+                "Treaty of Versailles",
+                "Treaty of Vienna",
+                "Treaty of Ghent"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q57",
+            "question": "Who was the leader of the Soviet Union during World War II?",
+            "answers": [
+                "Vladimir Lenin",
+                "Leon Trotsky",
+                "Joseph Stalin",
+                "Nikita Khrushchev"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q58",
+            "question": "Which Egyptian queen had relationships with Julius Caesar and Mark Antony?",
+            "answers": [
+                "Nefertiti",
+                "Hatshepsut",
+                "Cleopatra",
+                "Nefertari"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q59",
+            "question": "What was the name of the atomic bomb dropped on Hiroshima?",
+            "answers": [
+                "Fat Man",
+                "Little Boy",
+                "Trinity",
+                "Gadget"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q60",
+            "question": "Which empire was led by Genghis Khan?",
+            "answers": [
+                "Ottoman Empire",
+                "Mongol Empire",
+                "Persian Empire",
+                "Byzantine Empire"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q61",
+            "question": "In which year did the French Revolution begin?",
+            "answers": [
+                "1776",
+                "1789",
+                "1799",
+                "1804"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q62",
+            "question": "Who was assassinated in Sarajevo in 1914, triggering World War I?",
+            "answers": [
+                "Kaiser Wilhelm II",
+                "Tsar Nicholas II",
+                "Archduke Franz Ferdinand",
+                "King George V"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q63",
+            "question": "Which ancient Greek philosopher was the teacher of Alexander the Great?",
+            "answers": [
+                "Socrates",
+                "Plato",
+                "Aristotle",
+                "Pythagoras"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q64",
+            "question": "What was the name of the pandemic that killed millions in Europe during the 14th century?",
+            "answers": [
+                "Spanish Flu",
+                "Black Death",
+                "Cholera Epidemic",
+                "Smallpox Outbreak"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q65",
+            "question": "Which Roman Emperor was known for his persecution of Christians and allegedly played the fiddle while Rome burned?",
+            "answers": [
+                "Augustus",
+                "Caligula",
+                "Nero",
+                "Tiberius"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q66",
+            "question": "What is the chemical formula for water?",
+            "answers": [
+                "H2O",
+                "CO2",
+                "O2",
+                "H2O2"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q67",
+            "question": "Which planet is closest to the Sun?",
+            "answers": [
+                "Venus",
+                "Mercury",
+                "Earth",
+                "Mars"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q68",
+            "question": "What is the powerhouse of the cell?",
+            "answers": [
+                "Nucleus",
+                "Ribosome",
+                "Mitochondria",
+                "Chloroplast"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q69",
+            "question": "What is the most abundant gas in Earth's atmosphere?",
+            "answers": [
+                "Oxygen",
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q70",
+            "question": "What is the speed of sound in air at sea level?",
+            "answers": [
+                "343 m/s",
+                "500 m/s",
+                "1000 m/s",
+                "150 m/s"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q71",
+            "question": "Which blood type is known as the universal donor?",
+            "answers": [
+                "A",
+                "B",
+                "AB",
+                "O"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "q72",
+            "question": "What is the largest organ in the human body?",
+            "answers": [
+                "Liver",
+                "Brain",
+                "Skin",
+                "Heart"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q73",
+            "question": "Which element is represented by the symbol 'Fe'?",
+            "answers": [
+                "Fluorine",
+                "Iron",
+                "Fermium",
+                "Francium"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q74",
+            "question": "How many bones are in the adult human body?",
+            "answers": [
+                "186",
+                "206",
+                "226",
+                "246"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q75",
+            "question": "What is the process by which plants make their own food?",
+            "answers": [
+                "Respiration",
+                "Photosynthesis",
+                "Digestion",
+                "Fermentation"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q76",
+            "question": "Which planet has the most moons?",
+            "answers": [
+                "Jupiter",
+                "Saturn",
+                "Uranus",
+                "Neptune"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q77",
+            "question": "What is the pH value of pure water?",
+            "answers": [
+                "5",
+                "7",
+                "9",
+                "11"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q78",
+            "question": "What type of bond involves the sharing of electrons?",
+            "answers": [
+                "Ionic bond",
+                "Metallic bond",
+                "Covalent bond",
+                "Hydrogen bond"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q79",
+            "question": "Which scientist developed the theory of general relativity?",
+            "answers": [
+                "Isaac Newton",
+                "Albert Einstein",
+                "Niels Bohr",
+                "Stephen Hawking"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q80",
+            "question": "What is the smallest unit of life?",
+            "answers": [
+                "Atom",
+                "Molecule",
+                "Cell",
+                "Tissue"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q81",
+            "question": "Which gas is produced during photosynthesis?",
+            "answers": [
+                "Carbon Dioxide",
+                "Nitrogen",
+                "Oxygen",
+                "Methane"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q82",
+            "question": "What is the hardest natural substance on Earth?",
+            "answers": [
+                "Gold",
+                "Iron",
+                "Diamond",
+                "Quartz"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q83",
+            "question": "Which force keeps planets in orbit around the Sun?",
+            "answers": [
+                "Electromagnetic force",
+                "Gravitational force",
+                "Nuclear force",
+                "Friction"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q84",
+            "question": "What is the main component of the Sun?",
+            "answers": [
+                "Helium",
+                "Oxygen",
+                "Hydrogen",
+                "Carbon"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q85",
+            "question": "Which part of the brain controls balance and coordination?",
+            "answers": [
+                "Cerebrum",
+                "Cerebellum",
+                "Medulla",
+                "Hypothalamus"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q86",
+            "question": "What is the study of fungi called?",
+            "answers": [
+                "Botany",
+                "Zoology",
+                "Mycology",
+                "Microbiology"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q87",
+            "question": "Which particle in an atom has a negative charge?",
+            "answers": [
+                "Proton",
+                "Neutron",
+                "Electron",
+                "Photon"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q88",
+            "question": "What is the name of the galaxy that contains our Solar System?",
+            "answers": [
+                "Andromeda",
+                "Milky Way",
+                "Whirlpool",
+                "Sombrero"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q89",
+            "question": "Which vitamin is produced when skin is exposed to sunlight?",
+            "answers": [
+                "Vitamin A",
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin E"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q90",
+            "question": "What is the boiling point of water at sea level in Celsius?",
+            "answers": [
+                "90°C",
+                "100°C",
+                "110°C",
+                "120°C"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q91",
+            "question": "Who wrote the novel '1984'?",
+            "answers": [
+                "Aldous Huxley",
+                "George Orwell",
+                "Ray Bradbury",
+                "H.G. Wells"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q92",
+            "question": "Which artist is famous for painting 'The Starry Night'?",
+            "answers": [
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Salvador Dalí"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q93",
+            "question": "Who wrote 'Pride and Prejudice'?",
+            "answers": [
+                "Charlotte Brontë",
+                "Emily Brontë",
+                "Jane Austen",
+                "Mary Shelley"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q94",
+            "question": "Which Renaissance artist painted the ceiling of the Sistine Chapel?",
+            "answers": [
+                "Leonardo da Vinci",
+                "Raphael",
+                "Michelangelo",
+                "Donatello"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q95",
+            "question": "Who wrote 'The Great Gatsby'?",
+            "answers": [
+                "Ernest Hemingway",
+                "F. Scott Fitzgerald",
+                "John Steinbeck",
+                "William Faulkner"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q96",
+            "question": "Which art movement is Salvador Dalí associated with?",
+            "answers": [
+                "Impressionism",
+                "Cubism",
+                "Surrealism",
+                "Expressionism"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q97",
+            "question": "Who wrote the Harry Potter series?",
+            "answers": [
+                "J.R.R. Tolkien",
+                "C.S. Lewis",
+                "J.K. Rowling",
+                "Philip Pullman"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q98",
+            "question": "Which famous painting features a woman with an enigmatic smile?",
+            "answers": [
+                "Girl with a Pearl Earring",
+                "The Birth of Venus",
+                "Mona Lisa",
+                "The Scream"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q99",
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "answers": [
+                "Harper Lee",
+                "Truman Capote",
+                "Tennessee Williams",
+                "Flannery O'Connor"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q100",
+            "question": "Which artist is known for his 'Campbell's Soup Cans' artwork?",
+            "answers": [
+                "Roy Lichtenstein",
+                "Andy Warhol",
+                "Jackson Pollock",
+                "Keith Haring"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q101",
+            "question": "Who wrote 'The Catcher in the Rye'?",
+            "answers": [
+                "Jack Kerouac",
+                "Allen Ginsberg",
+                "J.D. Salinger",
+                "Kurt Vonnegut"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q102",
+            "question": "Which Spanish artist co-founded the Cubist movement?",
+            "answers": [
+                "Joan Miró",
+                "Pablo Picasso",
+                "Diego Velázquez",
+                "Francisco Goya"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q103",
+            "question": "Who wrote 'One Hundred Years of Solitude'?",
+            "answers": [
+                "Jorge Luis Borges",
+                "Gabriel García Márquez",
+                "Pablo Neruda",
+                "Isabel Allende"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q104",
+            "question": "Which Dutch artist is famous for his use of light and shadow in paintings like 'The Night Watch'?",
+            "answers": [
+                "Johannes Vermeer",
+                "Rembrandt van Rijn",
+                "Hieronymus Bosch",
+                "Pieter Bruegel"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q105",
+            "question": "Who wrote the epic poem 'The Divine Comedy'?",
+            "answers": [
+                "Virgil",
+                "Homer",
+                "Dante Alighieri",
+                "Geoffrey Chaucer"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q106",
+            "question": "Which art movement emphasized emotion and individualism, often featuring dramatic scenes?",
+            "answers": [
+                "Neoclassicism",
+                "Romanticism",
+                "Realism",
+                "Baroque"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q107",
+            "question": "Who wrote 'The Odyssey'?",
+            "answers": [
+                "Sophocles",
+                "Euripides",
+                "Homer",
+                "Aeschylus"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q108",
+            "question": "Which Norwegian artist painted 'The Scream'?",
+            "answers": [
+                "Edvard Munch",
+                "Gustav Klimt",
+                "Egon Schiele",
+                "Wassily Kandinsky"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q109",
+            "question": "Who wrote 'Crime and Punishment'?",
+            "answers": [
+                "Leo Tolstoy",
+                "Fyodor Dostoevsky",
+                "Anton Chekhov",
+                "Ivan Turgenev"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q110",
+            "question": "Which art movement is characterized by small, visible brush strokes and emphasis on light?",
+            "answers": [
+                "Impressionism",
+                "Post-Impressionism",
+                "Fauvism",
+                "Pointillism"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q111",
+            "question": "Which movie won the Academy Award for Best Picture in 1994?",
+            "answers": [
+                "Pulp Fiction",
+                "The Shawshank Redemption",
+                "Forrest Gump",
+                "The Lion King"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q112",
+            "question": "Who played Jack Dawson in the movie 'Titanic'?",
+            "answers": [
+                "Brad Pitt",
+                "Leonardo DiCaprio",
+                "Tom Cruise",
+                "Johnny Depp"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q113",
+            "question": "Which band released the album 'Abbey Road'?",
+            "answers": [
+                "The Rolling Stones",
+                "The Beatles",
+                "Led Zeppelin",
+                "Pink Floyd"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q114",
+            "question": "What is the name of the fictional African country in 'Black Panther'?",
+            "answers": [
+                "Zamunda",
+                "Wakanda",
+                "Genovia",
+                "Latveria"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q115",
+            "question": "Which TV series features the character Walter White?",
+            "answers": [
+                "The Sopranos",
+                "Breaking Bad",
+                "Mad Men",
+                "Better Call Saul"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q116",
+            "question": "Who is known as the 'King of Pop'?",
+            "answers": [
+                "Elvis Presley",
+                "Prince",
+                "Michael Jackson",
+                "Freddie Mercury"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q117",
+            "question": "Which movie features the quote 'May the Force be with you'?",
+            "answers": [
+                "Star Trek",
+                "Star Wars",
+                "Guardians of the Galaxy",
+                "Interstellar"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q118",
+            "question": "Who directed the movie 'Inception'?",
+            "answers": [
+                "Steven Spielberg",
+                "Quentin Tarantino",
+                "Christopher Nolan",
+                "Martin Scorsese"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q119",
+            "question": "Which singer is known for the hit song 'Rolling in the Deep'?",
+            "answers": [
+                "Beyoncé",
+                "Adele",
+                "Taylor Swift",
+                "Rihanna"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q120",
+            "question": "What is the name of the coffee shop in the TV show 'Friends'?",
+            "answers": [
+                "Central Perk",
+                "Java Joe's",
+                "The Daily Grind",
+                "Coffee Bean"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q121",
+            "question": "Which actor played Iron Man in the Marvel Cinematic Universe?",
+            "answers": [
+                "Chris Evans",
+                "Chris Hemsworth",
+                "Robert Downey Jr.",
+                "Mark Ruffalo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q122",
+            "question": "Who won the first season of 'American Idol'?",
+            "answers": [
+                "Carrie Underwood",
+                "Kelly Clarkson",
+                "Ruben Studdard",
+                "Clay Aiken"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q123",
+            "question": "Which movie franchise features a character named Katniss Everdeen?",
+            "answers": [
+                "Divergent",
+                "The Maze Runner",
+                "The Hunger Games",
+                "Twilight"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q124",
+            "question": "Who composed the music for 'The Lion King'?",
+            "answers": [
+                "Hans Zimmer",
+                "John Williams",
+                "Elton John",
+                "Alan Menken"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q125",
+            "question": "Which TV show is set in the fictional town of Hawkins, Indiana?",
+            "answers": [
+                "The Walking Dead",
+                "Stranger Things",
+                "Twin Peaks",
+                "Riverdale"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q126",
+            "question": "Who played the Joker in 'The Dark Knight'?",
+            "answers": [
+                "Jack Nicholson",
+                "Jared Leto",
+                "Heath Ledger",
+                "Joaquin Phoenix"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q127",
+            "question": "Which band performed the halftime show at Super Bowl LII in 2018?",
+            "answers": [
+                "Coldplay",
+                "Justin Timberlake",
+                "Maroon 5",
+                "Bruno Mars"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q128",
+            "question": "What is the highest-grossing film of all time (not adjusted for inflation)?",
+            "answers": [
+                "Titanic",
+                "Avengers: Endgame",
+                "Avatar",
+                "Star Wars: The Force Awakens"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q129",
+            "question": "Which actress played Hermione Granger in the Harry Potter films?",
+            "answers": [
+                "Emma Watson",
+                "Emma Stone",
+                "Emma Roberts",
+                "Emily Blunt"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q130",
+            "question": "Who is the lead singer of the band Queen?",
+            "answers": [
+                "David Bowie",
+                "Freddie Mercury",
+                "Mick Jagger",
+                "Robert Plant"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q131",
+            "question": "Which streaming service produced the series 'The Crown'?",
+            "answers": [
+                "HBO",
+                "Amazon Prime",
+                "Netflix",
+                "Hulu"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q132",
+            "question": "Who directed the movie 'Pulp Fiction'?",
+            "answers": [
+                "Martin Scorsese",
+                "Quentin Tarantino",
+                "Ridley Scott",
+                "David Fincher"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q133",
+            "question": "Which rapper's real name is Marshall Bruce Mathers III?",
+            "answers": [
+                "Jay-Z",
+                "Eminem",
+                "Snoop Dogg",
+                "Dr. Dre"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q134",
+            "question": "What is the name of the fictional paper company in 'The Office' (US)?",
+            "answers": [
+                "Dunder Mifflin",
+                "Wernham Hogg",
+                "Initech",
+                "Sterling Cooper"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q135",
+            "question": "Which movie won the first ever Academy Award for Best Animated Feature in 2002?",
+            "answers": [
+                "Monsters, Inc.",
+                "Shrek",
+                "Ice Age",
+                "Spirited Away"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q136",
+            "question": "How many players are on a soccer team on the field at one time?",
+            "answers": [
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q137",
+            "question": "Which country has won the most FIFA World Cup titles?",
+            "answers": [
+                "Germany",
+                "Argentina",
+                "Brazil",
+                "Italy"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q138",
+            "question": "In which sport would you perform a slam dunk?",
+            "answers": [
+                "Volleyball",
+                "Basketball",
+                "Tennis",
+                "Handball"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q139",
+            "question": "How many Grand Slam tournaments are there in tennis each year?",
+            "answers": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q140",
+            "question": "Which athlete is known as 'The Greatest' in boxing?",
+            "answers": [
+                "Mike Tyson",
+                "Muhammad Ali",
+                "Floyd Mayweather",
+                "Sugar Ray Leonard"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q141",
+            "question": "In which year were the first modern Olympic Games held?",
+            "answers": [
+                "1892",
+                "1896",
+                "1900",
+                "1904"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q142",
+            "question": "What is the maximum score in a single frame of bowling?",
+            "answers": [
+                "10",
+                "20",
+                "30",
+                "50"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q143",
+            "question": "Which NFL team has won the most Super Bowl championships?",
+            "answers": [
+                "Dallas Cowboys",
+                "Pittsburgh Steelers",
+                "New England Patriots",
+                "San Francisco 49ers"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q144",
+            "question": "In golf, what is the term for one stroke under par?",
+            "answers": [
+                "Eagle",
+                "Birdie",
+                "Bogey",
+                "Albatross"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q145",
+            "question": "Which country hosted the 2016 Summer Olympics?",
+            "answers": [
+                "China",
+                "United Kingdom",
+                "Brazil",
+                "Russia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q146",
+            "question": "Who holds the record for the most home runs in a single MLB season?",
+            "answers": [
+                "Babe Ruth",
+                "Barry Bonds",
+                "Mark McGwire",
+                "Sammy Sosa"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q147",
+            "question": "In which sport is the Stanley Cup awarded?",
+            "answers": [
+                "Basketball",
+                "Baseball",
+                "Ice Hockey",
+                "American Football"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q148",
+            "question": "How many points is a touchdown worth in American football?",
+            "answers": [
+                "3",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q149",
+            "question": "Which tennis player has won the most Grand Slam singles titles in men's tennis?",
+            "answers": [
+                "Roger Federer",
+                "Rafael Nadal",
+                "Novak Djokovic",
+                "Pete Sampras"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q150",
+            "question": "What is the diameter of a basketball hoop in inches?",
+            "answers": [
+                "16 inches",
+                "18 inches",
+                "20 inches",
+                "22 inches"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q151",
+            "question": "Which country won the first Cricket World Cup in 1975?",
+            "answers": [
+                "Australia",
+                "West Indies",
+                "England",
+                "India"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q152",
+            "question": "In Formula 1, which driver has won the most World Championships?",
+            "answers": [
+                "Ayrton Senna",
+                "Michael Schumacher",
+                "Lewis Hamilton",
+                "Sebastian Vettel"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q153",
+            "question": "What is the length of an Olympic swimming pool in meters?",
+            "answers": [
+                "25 meters",
+                "50 meters",
+                "75 meters",
+                "100 meters"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q154",
+            "question": "Which boxer was known as 'Iron Mike'?",
+            "answers": [
+                "Mike Tyson",
+                "Michael Spinks",
+                "Mike Weaver",
+                "Michael Moorer"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q155",
+            "question": "In which sport would you find a pommel horse?",
+            "answers": [
+                "Track and Field",
+                "Gymnastics",
+                "Equestrian",
+                "Wrestling"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q156",
+            "question": "What is the capital of the United States?",
+            "answers": [
+                "New York City",
+                "Los Angeles",
+                "Washington, D.C.",
+                "Chicago"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q157",
+            "question": "How many days are in a leap year?",
+            "answers": [
+                "364",
+                "365",
+                "366",
+                "367"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q158",
+            "question": "What is the largest religion in the world by number of followers?",
+            "answers": [
+                "Islam",
+                "Christianity",
+                "Hinduism",
+                "Buddhism"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q159",
+            "question": "Which ocean is the largest?",
+            "answers": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean",
+                "Pacific Ocean"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "q160",
+            "question": "What is the international distress signal?",
+            "answers": [
+                "SOS",
+                "HELP",
+                "MAYDAY",
+                "911"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q161",
+            "question": "How many colors are in a rainbow?",
+            "answers": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q162",
+            "question": "What is the most spoken language in the world by number of native speakers?",
+            "answers": [
+                "English",
+                "Mandarin Chinese",
+                "Spanish",
+                "Hindi"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q163",
+            "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+            "answers": [
+                "Mars",
+                "Venus",
+                "Jupiter",
+                "Mercury"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q164",
+            "question": "What is the freezing point of water in Fahrenheit?",
+            "answers": [
+                "0°F",
+                "32°F",
+                "100°F",
+                "212°F"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q165",
+            "question": "How many sides does a hexagon have?",
+            "answers": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q166",
+            "question": "What is the currency of the United Kingdom?",
+            "answers": [
+                "Euro",
+                "Dollar",
+                "Pound Sterling",
+                "Franc"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q167",
+            "question": "Which instrument has 88 keys?",
+            "answers": [
+                "Guitar",
+                "Violin",
+                "Piano",
+                "Organ"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q168",
+            "question": "What does the acronym 'NASA' stand for?",
+            "answers": [
+                "National Aeronautics and Space Administration",
+                "North American Space Agency",
+                "National Aviation and Space Association",
+                "Naval Aeronautics and Space Administration"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q169",
+            "question": "How many time zones does Russia have?",
+            "answers": [
+                "7",
+                "9",
+                "11",
+                "13"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q170",
+            "question": "What is the smallest country in the world?",
+            "answers": [
+                "Monaco",
+                "Vatican City",
+                "San Marino",
+                "Liechtenstein"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q171",
+            "question": "Which direction does the sun rise?",
+            "answers": [
+                "North",
+                "South",
+                "East",
+                "West"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q172",
+            "question": "What is the main ingredient in traditional Japanese miso soup?",
+            "answers": [
+                "Soy sauce",
+                "Fermented soybean paste",
+                "Rice vinegar",
+                "Seaweed"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q173",
+            "question": "How many stripes are on the American flag?",
+            "answers": [
+                "11",
+                "13",
+                "15",
+                "50"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q174",
+            "question": "What is the name of the Greek god of the sea?",
+            "answers": [
+                "Zeus",
+                "Hades",
+                "Poseidon",
+                "Apollo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q175",
+            "question": "In Roman numerals, what does 'L' represent?",
+            "answers": [
+                "5",
+                "10",
+                "50",
+                "100"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q176",
+            "question": "What is the largest land animal on Earth?",
+            "answers": [
+                "White Rhinoceros",
+                "Hippopotamus",
+                "African Elephant",
+                "Giraffe"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q177",
+            "question": "Which bird is known for its ability to mimic human speech?",
+            "answers": [
+                "Eagle",
+                "Parrot",
+                "Owl",
+                "Hawk"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q178",
+            "question": "What is the fastest land animal?",
+            "answers": [
+                "Lion",
+                "Cheetah",
+                "Leopard",
+                "Gazelle"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q179",
+            "question": "Which animal is known as the 'ship of the desert'?",
+            "answers": [
+                "Horse",
+                "Donkey",
+                "Camel",
+                "Elephant"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q180",
+            "question": "What type of animal is a Komodo dragon?",
+            "answers": [
+                "Snake",
+                "Lizard",
+                "Crocodile",
+                "Turtle"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q181",
+            "question": "Which mammal is capable of true flight?",
+            "answers": [
+                "Flying squirrel",
+                "Sugar glider",
+                "Bat",
+                "Flying lemur"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q182",
+            "question": "What is the largest species of bear?",
+            "answers": [
+                "Grizzly Bear",
+                "Polar Bear",
+                "Kodiak Bear",
+                "Black Bear"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q183",
+            "question": "Which animal has the longest lifespan?",
+            "answers": [
+                "Elephant",
+                "Tortoise",
+                "Bowhead Whale",
+                "Parrot"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q184",
+            "question": "What is a group of lions called?",
+            "answers": [
+                "Pack",
+                "Herd",
+                "Pride",
+                "Flock"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q185",
+            "question": "Which animal is known for changing its color to match its surroundings?",
+            "answers": [
+                "Octopus",
+                "Chameleon",
+                "Cuttlefish",
+                "All of the above"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q186",
+            "question": "What is the largest species of penguin?",
+            "answers": [
+                "King Penguin",
+                "Emperor Penguin",
+                "Gentoo Penguin",
+                "Macaroni Penguin"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q187",
+            "question": "Which animal has three hearts?",
+            "answers": [
+                "Shark",
+                "Whale",
+                "Octopus",
+                "Squid"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q188",
+            "question": "What is the only mammal that lays eggs?",
+            "answers": [
+                "Platypus",
+                "Echidna",
+                "Both A and B",
+                "Opossum"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q189",
+            "question": "Which big cat is the largest?",
+            "answers": [
+                "Lion",
+                "Leopard",
+                "Tiger",
+                "Jaguar"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q190",
+            "question": "What is the primary diet of a giant panda?",
+            "answers": [
+                "Fish",
+                "Bamboo",
+                "Insects",
+                "Fruits"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q191",
+            "question": "Which animal is known for its black and white stripes?",
+            "answers": [
+                "Tiger",
+                "Zebra",
+                "Panda",
+                "Skunk"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q192",
+            "question": "What is the largest living species of shark?",
+            "answers": [
+                "Great White Shark",
+                "Tiger Shark",
+                "Whale Shark",
+                "Hammerhead Shark"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q193",
+            "question": "Which animal is known for its ability to regenerate lost limbs?",
+            "answers": [
+                "Frog",
+                "Salamander",
+                "Lizard",
+                "Snake"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q194",
+            "question": "What is the tallest animal in the world?",
+            "answers": [
+                "Elephant",
+                "Ostrich",
+                "Giraffe",
+                "Camel"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q195",
+            "question": "Which marine animal is known for its intelligence and complex social behavior?",
+            "answers": [
+                "Shark",
+                "Dolphin",
+                "Seal",
+                "Whale"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q196",
+            "question": "Who is credited with inventing the World Wide Web?",
+            "answers": [
+                "Bill Gates",
+                "Steve Jobs",
+                "Tim Berners-Lee",
+                "Mark Zuckerberg"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q197",
+            "question": "What does CPU stand for in computing?",
+            "answers": [
+                "Central Processing Unit",
+                "Computer Personal Unit",
+                "Central Program Utility",
+                "Computer Processing Utility"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q198",
+            "question": "Which company developed the iPhone?",
+            "answers": [
+                "Samsung",
+                "Google",
+                "Apple",
+                "Microsoft"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q199",
+            "question": "What year was the first iPhone released?",
+            "answers": [
+                "2005",
+                "2006",
+                "2007",
+                "2008"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q200",
+            "question": "What does USB stand for?",
+            "answers": [
+                "Universal Serial Bus",
+                "United System Bus",
+                "Universal System Board",
+                "United Serial Board"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q201",
+            "question": "Who founded Microsoft?",
+            "answers": [
+                "Steve Jobs and Steve Wozniak",
+                "Bill Gates and Paul Allen",
+                "Larry Page and Sergey Brin",
+                "Mark Zuckerberg"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q202",
+            "question": "What is the name of the first electronic general-purpose computer?",
+            "answers": [
+                "UNIVAC",
+                "ENIAC",
+                "IBM 701",
+                "Colossus"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q203",
+            "question": "Which programming language is known for its use in web development and has a coffee cup logo?",
+            "answers": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "C++"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q204",
+            "question": "What does AI stand for in technology?",
+            "answers": [
+                "Automated Intelligence",
+                "Artificial Intelligence",
+                "Advanced Integration",
+                "Automated Integration"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q205",
+            "question": "Which social media platform is known for its 280-character limit on posts?",
+            "answers": [
+                "Facebook",
+                "Instagram",
+                "Twitter",
+                "LinkedIn"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q206",
+            "question": "What does RAM stand for in computing?",
+            "answers": [
+                "Random Access Memory",
+                "Rapid Application Memory",
+                "Read Access Module",
+                "Random Application Module"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q207",
+            "question": "Who is considered the father of modern computing?",
+            "answers": [
+                "Steve Jobs",
+                "Bill Gates",
+                "Alan Turing",
+                "Charles Babbage"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q208",
+            "question": "What year was Google founded?",
+            "answers": [
+                "1996",
+                "1998",
+                "2000",
+                "2002"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q209",
+            "question": "Which technology company uses a bitten apple as its logo?",
+            "answers": [
+                "Microsoft",
+                "Apple",
+                "IBM",
+                "Dell"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q210",
+            "question": "What does HTML stand for?",
+            "answers": [
+                "Hyper Text Markup Language",
+                "High Tech Modern Language",
+                "Hyper Transfer Markup Language",
+                "High Text Markup Language"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q211",
+            "question": "Which company created the Android operating system?",
+            "answers": [
+                "Apple",
+                "Microsoft",
+                "Google",
+                "Samsung"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q212",
+            "question": "What is the name of the virtual assistant developed by Amazon?",
+            "answers": [
+                "Siri",
+                "Cortana",
+                "Alexa",
+                "Google Assistant"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q213",
+            "question": "Which technology allows computers to connect wirelessly to the internet?",
+            "answers": [
+                "Bluetooth",
+                "Wi-Fi",
+                "Ethernet",
+                "USB"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q214",
+            "question": "What does VR stand for in technology?",
+            "answers": [
+                "Visual Reality",
+                "Virtual Reality",
+                "Video Rendering",
+                "Visual Rendering"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q215",
+            "question": "Which programming language is named after a type of snake?",
+            "answers": [
+                "Java",
+                "Ruby",
+                "Python",
+                "Cobra"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q216",
+            "question": "What is the main ingredient in traditional hummus?",
+            "answers": [
+                "Lentils",
+                "Chickpeas",
+                "Black beans",
+                "Kidney beans"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q217",
+            "question": "Which country is the origin of sushi?",
+            "answers": [
+                "China",
+                "Japan",
+                "Korea",
+                "Thailand"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q218",
+            "question": "What type of pasta is shaped like small rice grains?",
+            "answers": [
+                "Orzo",
+                "Penne",
+                "Fusilli",
+                "Farfalle"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q219",
+            "question": "Which spice is known as the most expensive in the world by weight?",
+            "answers": [
+                "Vanilla",
+                "Cardamom",
+                "Saffron",
+                "Cinnamon"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q220",
+            "question": "What is the primary ingredient in guacamole?",
+            "answers": [
+                "Tomato",
+                "Avocado",
+                "Pepper",
+                "Onion"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q221",
+            "question": "Which Italian dessert translates to 'pick me up'?",
+            "answers": [
+                "Panna Cotta",
+                "Gelato",
+                "Tiramisu",
+                "Cannoli"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q222",
+            "question": "What is the main alcohol in a Mojito cocktail?",
+            "answers": [
+                "Vodka",
+                "Tequila",
+                "Rum",
+                "Gin"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q223",
+            "question": "Which cheese is traditionally used on a Margherita pizza?",
+            "answers": [
+                "Cheddar",
+                "Parmesan",
+                "Mozzarella",
+                "Gouda"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q224",
+            "question": "What is the French term for cooking food in a sealed bag in water?",
+            "answers": [
+                "Sauté",
+                "Sous vide",
+                "Flambé",
+                "Braise"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q225",
+            "question": "Which fruit is used to make traditional wine?",
+            "answers": [
+                "Apples",
+                "Grapes",
+                "Berries",
+                "Peaches"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q226",
+            "question": "What is the main ingredient in traditional Japanese miso soup?",
+            "answers": [
+                "Soy sauce",
+                "Rice vinegar",
+                "Fermented soybean paste",
+                "Fish sauce"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q227",
+            "question": "Which nut is used to make marzipan?",
+            "answers": [
+                "Walnut",
+                "Cashew",
+                "Almond",
+                "Hazelnut"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q228",
+            "question": "What is the name of the Spanish rice dish cooked with saffron?",
+            "answers": [
+                "Risotto",
+                "Paella",
+                "Biryani",
+                "Jambalaya"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q229",
+            "question": "Which beverage is made from fermented tea?",
+            "answers": [
+                "Kefir",
+                "Kombucha",
+                "Kvass",
+                "Sake"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q230",
+            "question": "What is the main ingredient in traditional Greek tzatziki sauce?",
+            "answers": [
+                "Sour cream",
+                "Yogurt",
+                "Mayonnaise",
+                "Cream cheese"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q231",
+            "question": "Which country is the largest producer of coffee in the world?",
+            "answers": [
+                "Colombia",
+                "Vietnam",
+                "Brazil",
+                "Ethiopia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q232",
+            "question": "What is the primary ingredient in traditional Indian naan bread?",
+            "answers": [
+                "Corn flour",
+                "Rice flour",
+                "Wheat flour",
+                "Chickpea flour"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q233",
+            "question": "Which chocolate variety contains no cocoa solids, only cocoa butter?",
+            "answers": [
+                "Dark chocolate",
+                "Milk chocolate",
+                "White chocolate",
+                "Ruby chocolate"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q234",
+            "question": "What is the name of the French cooking technique where vegetables are cut into thin strips?",
+            "answers": [
+                "Brunoise",
+                "Julienne",
+                "Chiffonade",
+                "Mirepoix"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q235",
+            "question": "Which spirit is the base of a classic Margarita cocktail?",
+            "answers": [
+                "Rum",
+                "Vodka",
+                "Tequila",
+                "Whiskey"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q236",
+            "question": "What does the word 'etymology' mean?",
+            "answers": [
+                "Study of insects",
+                "Study of word origins",
+                "Study of ethics",
+                "Study of ancient texts"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q237",
+            "question": "The word 'salary' comes from the Latin word for which substance?",
+            "answers": [
+                "Gold",
+                "Silver",
+                "Salt",
+                "Wheat"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q238",
+            "question": "What does the prefix 'tele-' mean?",
+            "answers": [
+                "Near",
+                "Far",
+                "Small",
+                "Large"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q239",
+            "question": "The word 'quarantine' originally referred to how many days?",
+            "answers": [
+                "14",
+                "30",
+                "40",
+                "60"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q240",
+            "question": "What does the word 'hippopotamus' literally mean in Greek?",
+            "answers": [
+                "River horse",
+                "Water beast",
+                "Large mouth",
+                "Gray giant"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q241",
+            "question": "The word 'sandwich' is named after what?",
+            "answers": [
+                "A place in England",
+                "An Earl",
+                "Both A and B",
+                "A chef"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q242",
+            "question": "What does the Latin root 'bene' mean?",
+            "answers": [
+                "Good",
+                "Bad",
+                "Many",
+                "Few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q243",
+            "question": "The word 'disaster' comes from Latin words meaning what?",
+            "answers": [
+                "Bad weather",
+                "Evil star",
+                "Great fire",
+                "Terrible fate"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q244",
+            "question": "What does the suffix '-phobia' mean?",
+            "answers": [
+                "Love of",
+                "Fear of",
+                "Study of",
+                "Hatred of"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q245",
+            "question": "The word 'alphabet' comes from the first two letters of which language?",
+            "answers": [
+                "Latin",
+                "Greek",
+                "Hebrew",
+                "Arabic"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q246",
+            "question": "What does the word 'nostalgia' literally mean?",
+            "answers": [
+                "Longing for home",
+                "Pain from returning",
+                "Memory of past",
+                "Sadness for loss"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q247",
+            "question": "The word 'muscle' comes from the Latin word for what animal?",
+            "answers": [
+                "Mouse",
+                "Snake",
+                "Worm",
+                "Fish"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q248",
+            "question": "What does the prefix 'micro-' mean?",
+            "answers": [
+                "Large",
+                "Small",
+                "Middle",
+                "Many"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q249",
+            "question": "The word 'lunatic' is derived from the Latin word for what?",
+            "answers": [
+                "Sun",
+                "Moon",
+                "Stars",
+                "Night"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q250",
+            "question": "What does the root word 'graph' mean?",
+            "answers": [
+                "To speak",
+                "To write",
+                "To see",
+                "To hear"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q251",
+            "question": "The word 'panic' comes from the name of which Greek god?",
+            "answers": [
+                "Zeus",
+                "Apollo",
+                "Pan",
+                "Ares"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q252",
+            "question": "What does the Latin word 'aqua' mean?",
+            "answers": [
+                "Air",
+                "Fire",
+                "Water",
+                "Earth"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q253",
+            "question": "The word 'sincere' originally meant what in Latin?",
+            "answers": [
+                "Without wax",
+                "Pure heart",
+                "True word",
+                "Honest face"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q254",
+            "question": "What does the prefix 'anti-' mean?",
+            "answers": [
+                "For",
+                "Against",
+                "Before",
+                "After"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q255",
+            "question": "The word 'sarcasm' comes from Greek words meaning what?",
+            "answers": [
+                "Sharp tongue",
+                "Tear flesh",
+                "Mock speech",
+                "Bitter words"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q256",
+            "question": "Who wrote 'Moby-Dick'?",
+            "answers": [
+                "Nathaniel Hawthorne",
+                "Herman Melville",
+                "Edgar Allan Poe",
+                "Mark Twain"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q257",
+            "question": "Who wrote 'The Picture of Dorian Gray'?",
+            "answers": [
+                "Oscar Wilde",
+                "Bram Stoker",
+                "Robert Louis Stevenson",
+                "H.G. Wells"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q258",
+            "question": "Who wrote 'Brave New World'?",
+            "answers": [
+                "George Orwell",
+                "Aldous Huxley",
+                "Ray Bradbury",
+                "Isaac Asimov"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q259",
+            "question": "Who wrote 'The Handmaid's Tale'?",
+            "answers": [
+                "Margaret Atwood",
+                "Ursula K. Le Guin",
+                "Octavia Butler",
+                "Doris Lessing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q260",
+            "question": "Who wrote 'Wuthering Heights'?",
+            "answers": [
+                "Charlotte Brontë",
+                "Emily Brontë",
+                "Anne Brontë",
+                "Jane Austen"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q261",
+            "question": "Who wrote 'The Metamorphosis'?",
+            "answers": [
+                "Franz Kafka",
+                "Thomas Mann",
+                "Hermann Hesse",
+                "Albert Camus"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q262",
+            "question": "Who wrote 'Beloved'?",
+            "answers": [
+                "Alice Walker",
+                "Toni Morrison",
+                "Maya Angelou",
+                "Zora Neale Hurston"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q263",
+            "question": "Who wrote 'The Grapes of Wrath'?",
+            "answers": [
+                "Ernest Hemingway",
+                "William Faulkner",
+                "John Steinbeck",
+                "F. Scott Fitzgerald"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q264",
+            "question": "Who wrote 'Slaughterhouse-Five'?",
+            "answers": [
+                "Joseph Heller",
+                "Kurt Vonnegut",
+                "Philip K. Dick",
+                "Ken Kesey"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q265",
+            "question": "Who wrote 'The Lord of the Rings'?",
+            "answers": [
+                "C.S. Lewis",
+                "J.R.R. Tolkien",
+                "George R.R. Martin",
+                "Terry Pratchett"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q266",
+            "question": "Who wrote 'Frankenstein'?",
+            "answers": [
+                "Mary Shelley",
+                "Bram Stoker",
+                "Edgar Allan Poe",
+                "H.P. Lovecraft"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q267",
+            "question": "Who wrote 'The Stranger' (L'Étranger)?",
+            "answers": [
+                "Jean-Paul Sartre",
+                "Albert Camus",
+                "Simone de Beauvoir",
+                "André Gide"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q268",
+            "question": "Who wrote 'Invisible Man'?",
+            "answers": [
+                "James Baldwin",
+                "Ralph Ellison",
+                "Richard Wright",
+                "Langston Hughes"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q269",
+            "question": "Who wrote 'The Bell Jar'?",
+            "answers": [
+                "Sylvia Plath",
+                "Anne Sexton",
+                "Virginia Woolf",
+                "Dorothy Parker"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q270",
+            "question": "Who wrote 'Catch-22'?",
+            "answers": [
+                "Kurt Vonnegut",
+                "Joseph Heller",
+                "Norman Mailer",
+                "Philip Roth"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q271",
+            "question": "Who wrote 'The Color Purple'?",
+            "answers": [
+                "Alice Walker",
+                "Toni Morrison",
+                "Maya Angelou",
+                "Gloria Naylor"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q272",
+            "question": "Who wrote 'A Clockwork Orange'?",
+            "answers": [
+                "George Orwell",
+                "Anthony Burgess",
+                "William Golding",
+                "Aldous Huxley"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q273",
+            "question": "Who wrote 'The Road'?",
+            "answers": [
+                "Cormac McCarthy",
+                "Don DeLillo",
+                "Thomas Pynchon",
+                "Philip Roth"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q274",
+            "question": "Who wrote 'Lolita'?",
+            "answers": [
+                "Vladimir Nabokov",
+                "Boris Pasternak",
+                "Alexander Solzhenitsyn",
+                "Mikhail Bulgakov"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q275",
+            "question": "Who wrote 'The Kite Runner'?",
+            "answers": [
+                "Khaled Hosseini",
+                "Mohsin Hamid",
+                "Aravind Adiga",
+                "Jhumpa Lahiri"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q276",
+            "question": "What color is created by mixing red and blue?",
+            "answers": [
+                "Orange",
+                "Green",
+                "Purple",
+                "Brown"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q277",
+            "question": "What are the three primary colors in traditional color theory?",
+            "answers": [
+                "Red, Yellow, Blue",
+                "Red, Green, Blue",
+                "Cyan, Magenta, Yellow",
+                "Red, Yellow, Green"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q278",
+            "question": "What color is opposite to red on the color wheel?",
+            "answers": [
+                "Blue",
+                "Green",
+                "Yellow",
+                "Orange"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q279",
+            "question": "What is the color of a sapphire gemstone?",
+            "answers": [
+                "Red",
+                "Blue",
+                "Green",
+                "Purple"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q280",
+            "question": "What color is created by mixing all colors of light together?",
+            "answers": [
+                "Black",
+                "White",
+                "Gray",
+                "Brown"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q281",
+            "question": "What color is associated with royalty and nobility?",
+            "answers": [
+                "Red",
+                "Blue",
+                "Purple",
+                "Gold"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q282",
+            "question": "What is the color of an emerald?",
+            "answers": [
+                "Blue",
+                "Green",
+                "Red",
+                "Yellow"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q283",
+            "question": "What color do you get when you mix yellow and blue?",
+            "answers": [
+                "Orange",
+                "Purple",
+                "Green",
+                "Brown"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q284",
+            "question": "What is the color of a ruby gemstone?",
+            "answers": [
+                "Red",
+                "Blue",
+                "Green",
+                "Purple"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q285",
+            "question": "What color is created by mixing red and yellow?",
+            "answers": [
+                "Orange",
+                "Purple",
+                "Green",
+                "Brown"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q286",
+            "question": "What is the color of the sun as it appears from Earth?",
+            "answers": [
+                "Red",
+                "Yellow",
+                "White",
+                "Orange"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q287",
+            "question": "What color is indigo closest to?",
+            "answers": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q288",
+            "question": "What is the color of chlorophyll in plants?",
+            "answers": [
+                "Yellow",
+                "Green",
+                "Blue",
+                "Brown"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q289",
+            "question": "What color is created when you mix all paint colors together?",
+            "answers": [
+                "White",
+                "Black",
+                "Brown",
+                "Gray"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q290",
+            "question": "What is the color of amethyst?",
+            "answers": [
+                "Blue",
+                "Green",
+                "Purple",
+                "Red"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q291",
+            "question": "What color is associated with envy?",
+            "answers": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q292",
+            "question": "What are the colors of the RGB color model?",
+            "answers": [
+                "Red, Yellow, Blue",
+                "Red, Green, Blue",
+                "Red, Green, Black",
+                "Red, Gray, Blue"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q293",
+            "question": "What color is turquoise a shade of?",
+            "answers": [
+                "Green",
+                "Blue",
+                "Both A and B",
+                "Purple"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q294",
+            "question": "What is the color of the hottest part of a flame?",
+            "answers": [
+                "Red",
+                "Orange",
+                "Yellow",
+                "Blue"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "q295",
+            "question": "What color is vermillion?",
+            "answers": [
+                "Blue",
+                "Red",
+                "Green",
+                "Yellow"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q296",
+            "question": "What is the capital city of Australia?",
+            "answers": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q297",
+            "question": "Which Australian animal is featured on the 50 cent coin?",
+            "answers": [
+                "Kangaroo",
+                "Koala",
+                "Emu",
+                "Coat of Arms"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": "q298",
+            "question": "What is the largest city in Australia by population?",
+            "answers": [
+                "Melbourne",
+                "Sydney",
+                "Brisbane",
+                "Perth"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q299",
+            "question": "Which Australian state is known as the 'Sunshine State'?",
+            "answers": [
+                "New South Wales",
+                "Victoria",
+                "Queensland",
+                "Western Australia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q300",
+            "question": "What is the name of the famous rock formation in the Northern Territory?",
+            "answers": [
+                "Ayers Rock (Uluru)",
+                "The Olgas",
+                "Wave Rock",
+                "Devils Marbles"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": "q301",
+            "question": "Which Australian city hosted the 2000 Summer Olympics?",
+            "answers": [
+                "Melbourne",
+                "Brisbane",
+                "Sydney",
+                "Perth"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q302",
+            "question": "What is the name of Australia's national airline?",
+            "answers": [
+                "Virgin Australia",
+                "Qantas",
+                "Jetstar",
+                "Air Australia"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q303",
+            "question": "Which Australian animal is NOT a marsupial?",
+            "answers": [
+                "Kangaroo",
+                "Koala",
+                "Platypus",
+                "Wombat"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q304",
+            "question": "What is the name of the famous Australian opera house?",
+            "answers": [
+                "Melbourne Opera House",
+                "Sydney Opera House",
+                "Brisbane Performing Arts",
+                "Perth Concert Hall"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q305",
+            "question": "Which ocean borders Australia to the west?",
+            "answers": [
+                "Pacific Ocean",
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Southern Ocean"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q306",
+            "question": "What is the name of the famous Australian beach in Sydney?",
+            "answers": [
+                "Manly Beach",
+                "Bondi Beach",
+                "Surfers Paradise",
+                "St Kilda Beach"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q307",
+            "question": "Which Australian state is Tasmania?",
+            "answers": [
+                "A territory",
+                "An island state",
+                "Part of Victoria",
+                "A city"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q308",
+            "question": "What is the name of the famous Australian reef?",
+            "answers": [
+                "Coral Reef",
+                "Great Barrier Reef",
+                "Rainbow Reef",
+                "Pacific Reef"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q309",
+            "question": "Which Australian city is known as the 'Garden City'?",
+            "answers": [
+                "Sydney",
+                "Melbourne",
+                "Adelaide",
+                "Perth"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q310",
+            "question": "What is the currency of Australia?",
+            "answers": [
+                "Australian Pound",
+                "Australian Dollar",
+                "Australian Euro",
+                "Australian Shilling"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q311",
+            "question": "Which Australian animal is known for sleeping up to 22 hours a day?",
+            "answers": [
+                "Wombat",
+                "Kangaroo",
+                "Koala",
+                "Tasmanian Devil"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q312",
+            "question": "What is the name of the famous Australian outback road?",
+            "answers": [
+                "The Great Ocean Road",
+                "The Stuart Highway",
+                "The Pacific Highway",
+                "The Hume Highway"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q313",
+            "question": "Which Australian state has the smallest population?",
+            "answers": [
+                "Tasmania",
+                "Northern Territory",
+                "Australian Capital Territory",
+                "South Australia"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": "q314",
+            "question": "What is the name of Australia's largest desert?",
+            "answers": [
+                "Simpson Desert",
+                "Great Victoria Desert",
+                "Tanami Desert",
+                "Gibson Desert"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": "q315",
+            "question": "Which Australian city is famous for its trams?",
+            "answers": [
+                "Sydney",
+                "Brisbane",
+                "Melbourne",
+                "Adelaide"
+            ],
+            "correctAnswer": 2
         }
     ]
 }
