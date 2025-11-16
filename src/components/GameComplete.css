@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 2rem;
+    margin-top: -6rem;
 }
 
 .completion-card {
@@ -20,7 +20,7 @@
 .completion-title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.87);
     margin: 0 0 1rem 0;
 }
 
@@ -88,9 +88,38 @@
     color: #999;
 }
 
+@media (prefers-color-scheme: light) {
+    .completion-card {
+        background-color: #ffffff;
+        border-color: #e0e0e0;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .completion-title {
+        color: #213547;
+    }
+
+    .completion-message {
+        color: #666;
+    }
+
+    .final-stat-label {
+        color: #666;
+    }
+
+    .percentage-label {
+        color: #666;
+    }
+
+    .percentage-display {
+        border-top-color: #e0e0e0;
+    }
+}
+
 @media (max-width: 640px) {
     .game-complete {
         padding: 1rem;
+        margin-top: -8rem;
     }
 
     .completion-card {

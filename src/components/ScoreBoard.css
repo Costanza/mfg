@@ -20,7 +20,7 @@
 .progress-text {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 .scoreboard-stats {
@@ -53,6 +53,22 @@
 
 .incorrect-stat .stat-value {
     color: #F44336;
+}
+
+@media (prefers-color-scheme: light) {
+    .scoreboard {
+        background-color: #ffffff;
+        border-bottom-color: #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .progress-text {
+        color: #213547;
+    }
+
+    .stat-label {
+        color: #666;
+    }
 }
 
 @media (max-width: 640px) {

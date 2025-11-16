@@ -2,13 +2,13 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0;
 }
 
 .question-text {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #333;
+    color: rgba(255, 255, 255, 0.87);
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.4;
@@ -21,6 +21,12 @@
     width: 100%;
 }
 
+@media (prefers-color-scheme: light) {
+    .question-text {
+        color: #213547;
+    }
+}
+
 @media (min-width: 768px) {
     .question-text {
         font-size: 1.75rem;
@@ -29,5 +35,16 @@
     .answers-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .question-text {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .answers-grid {
+        gap: 0.75rem;
     }
 }

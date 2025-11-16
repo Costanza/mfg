@@ -72,13 +72,13 @@
   - Handle loading state while questions are being fetched
   - _Requirements: 1.1, 1.2, 2.1, 3.3, 4.1, 4.2, 4.3, 5.1, 5.3_
 
-- [ ] 10. Add error handling for data loading
+- [x] 10. Add error handling for data loading
   - Implement error state in useGameState hook for failed JSON loads
   - Display user-friendly error message when questions fail to load
   - Add retry mechanism or fallback sample questions
   - _Requirements: 5.2_
 
-- [ ] 11. Implement styling and visual design
+- [x] 11. Implement styling and visual design
   - Create CSS styles for all components following design specifications
   - Implement color scheme for correct (green), incorrect (red), and selected (blue) states
   - Add responsive layout for mobile and desktop views
@@ -86,7 +86,7 @@
   - Ensure adequate spacing and readability
   - _Requirements: 1.3, 2.4_
 
-- [ ] 12. Add accessibility features
+- [-] 12. Add accessibility features
   - Add semantic HTML elements throughout components
   - Implement ARIA labels for interactive elements
   - Add keyboard navigation support (Tab, Enter, Space)

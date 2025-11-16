@@ -5,6 +5,7 @@
     width: 100%;
     padding: 1rem 1.5rem;
     text-align: left;
+    border-radius: 8px;
     border: 2px solid #444;
     background-color: #1a1a1a;
     color: rgba(255, 255, 255, 0.87);
@@ -16,11 +17,18 @@
 .answer-option:hover:not(:disabled) {
     border-color: #646cff;
     background-color: #2a2a2a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.answer-option:focus {
+    outline: none;
 }
 
 .answer-option:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-    outline-offset: 2px;
+    outline: 3px solid #646cff;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 6px rgba(100, 108, 255, 0.2);
 }
 
 .answer-option:disabled {
@@ -32,6 +40,7 @@
     font-size: 1.2rem;
     min-width: 2rem;
     text-align: center;
+    color: #646cff;
 }
 
 .answer-text {
@@ -42,18 +51,33 @@
 .answer-option.selected {
     border-color: #2196F3;
     background-color: rgba(33, 150, 243, 0.2);
+    transform: translateY(0);
+}
+
+.answer-option.selected .answer-label {
+    color: #2196F3;
 }
 
 /* Correct answer state */
 .answer-option.correct {
     border-color: #4CAF50;
     background-color: rgba(76, 175, 80, 0.2);
+    transform: translateY(0);
+}
+
+.answer-option.correct .answer-label {
+    color: #4CAF50;
 }
 
 /* Incorrect answer state */
 .answer-option.incorrect {
     border-color: #F44336;
     background-color: rgba(244, 67, 54, 0.2);
+    transform: translateY(0);
+}
+
+.answer-option.incorrect .answer-label {
+    color: #F44336;
 }
 
 /* Light mode styles */
@@ -67,6 +91,7 @@
     .answer-option:hover:not(:disabled) {
         background-color: #efefef;
         border-color: #646cff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .answer-option.selected {
@@ -79,5 +104,17 @@
 
     .answer-option.incorrect {
         background-color: rgba(244, 67, 54, 0.15);
+    }
+}
+
+@media (max-width: 640px) {
+    .answer-option {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.95rem;
+    }
+
+    .answer-label {
+        font-size: 1.1rem;
+        min-width: 1.75rem;
     }
 }

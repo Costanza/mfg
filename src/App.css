@@ -1,6 +1,101 @@
 .app {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
+  padding-top: 8rem;
   text-align: center;
+  min-height: 100vh;
+}
+
+.app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 1rem;
+}
+
+.loading-container p {
+  font-size: 1.25rem;
+  color: #999;
+}
+
+.fallback-notice {
+  background-color: rgba(255, 152, 0, 0.15);
+  border: 2px solid #ff9800;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.fallback-notice p {
+  margin: 0;
+  color: #ff9800;
+  font-weight: 500;
+}
+
+.retry-link {
+  background: none;
+  border: none;
+  color: #ff9800;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.retry-link:hover {
+  color: #fb8c00;
+}
+
+@media (prefers-color-scheme: light) {
+  .app h1 {
+    color: #213547;
+  }
+
+  .fallback-notice {
+    background-color: rgba(255, 152, 0, 0.1);
+  }
+
+  .fallback-notice p {
+    color: #e65100;
+  }
+
+  .retry-link {
+    color: #e65100;
+  }
+
+  .retry-link:hover {
+    color: #d84315;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1.5rem;
+    padding-top: 10rem;
+  }
+
+  .app h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 1rem;
+    padding-top: 12rem;
+  }
+
+  .app h1 {
+    font-size: 1.75rem;
+  }
 }

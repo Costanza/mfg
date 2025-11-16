@@ -15,31 +15,20 @@ function App() {
     gameComplete,
     loading,
     error,
+    usingFallback,
     selectAnswer,
     nextQuestion,
-    restartGame
+    restartGame,
+    retryLoad
   } = useGameState();
 
   // Handle loading state
   if (loading) {
     return (
-      <div className="app">
-        <div className="loading-container">
+      <div className="app" role="main">
+        <div className="loading-container" role="status" aria-live="polite">
           <h1>Millionaire Flashcard Game</h1>
           <p>Loading questions...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // Handle error state
-  if (error) {
-    return (
-      <div className="app">
-        <div className="error-container">
-          <h1>Millionaire Flashcard Game</h1>
-          <p className="error-message">Error: {error}</p>
-          <button onClick={() => window.location.reload()}>Retry</button>
         </div>
       </div>
     );
@@ -48,7 +37,7 @@ function App() {
   // Render game complete screen
   if (gameComplete) {
     return (
-      <div className="app">
+      <div className="app" role="main">
         <h1>Millionaire Flashcard Game</h1>
         <GameComplete
           correct={score.correct}
@@ -66,8 +55,13 @@ function App() {
 
   // Render main game interface
   return (
-    <div className="app">
+    <div className="app" role="main">
       <h1>Millionaire Flashcard Game</h1>
+      {usingFallback && (
+        <div className="fallback-notice" role="alert">
+          <p>⚠️ Using sample questions. <button onClick={retryLoad} className="retry-link" aria-label="Retry loading questions from file">Try loading questions again</button></p>
+        </div>
+      )}
       <ScoreBoard
         correct={score.correct}
         incorrect={score.incorrect}

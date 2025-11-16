@@ -12,9 +12,13 @@ function Question({
     const showFeedback = selectedAnswer !== null;
 
     return (
-        <div className="question-container">
-            <h2 className="question-text">{question}</h2>
-            <div className="answers-grid">
+        <section className="question-container" aria-labelledby="current-question">
+            <h2 id="current-question" className="question-text">{question}</h2>
+            <div
+                className="answers-grid"
+                role="group"
+                aria-label="Answer options"
+            >
                 {answers.map((answer, index) => (
                     <AnswerOption
                         key={index}
@@ -28,7 +32,15 @@ function Question({
                     />
                 ))}
             </div>
-        </div>
+            {showFeedback && (
+                <div className="sr-only" role="status" aria-live="assertive">
+                    {selectedAnswer === correctAnswer
+                        ? 'Correct answer!'
+                        : `Incorrect. The correct answer is ${labels[correctAnswer]}: ${answers[correctAnswer]}`
+                    }
+                </div>
+            )}
+        </section>
     );
 }
 
