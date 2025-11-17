@@ -29,30 +29,43 @@ export const PRIZE_LADDER = [
 export const TOTAL_QUESTIONS = 15;
 
 // Categorize questions by difficulty based on their ID ranges
-// This is a heuristic - you can adjust these ranges based on actual question difficulty
+// This distributes questions evenly across difficulty levels
 export function assignDifficultyToQuestions(questions) {
-    return questions.map(question => {
-        const qNum = parseInt(question.id.replace('q', ''));
+    // Shuffle questions first to ensure random distribution
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
 
-        // Easy questions: Original basic questions (q1-q40)
-        if (qNum <= 40 || (qNum >= 156 && qNum <= 175)) {
-            return { ...question, difficulty: DIFFICULTY_LEVELS.EASY };
+    // Calculate how many questions per difficulty level
+    const totalQuestions = shuffled.length;
+    const easyCount = Math.floor(totalQuestions * 0.35);      // 35% easy
+    const mediumCount = Math.floor(totalQuestions * 0.25);    // 25% medium
+    const hardCount = Math.floor(totalQuestions * 0.25);      // 25% hard
+    // Remaining questions are brutal (approximately 15%)
+
+    return shuffled.map((question, index) => {
+        let difficulty;
+
+        if (index < easyCount) {
+            difficulty = DIFFICULTY_LEVELS.EASY;
+        } else if (index < easyCount + mediumCount) {
+            difficulty = DIFFICULTY_LEVELS.MEDIUM;
+        } else if (index < easyCount + mediumCount + hardCount) {
+            difficulty = DIFFICULTY_LEVELS.HARD;
+        } else {
+            difficulty = DIFFICULTY_LEVELS.BRUTAL;
         }
 
-        // Medium questions: Basic geography, history, science (q41-q90, q136-q155)
-        if ((qNum >= 41 && qNum <= 90) || (qNum >= 136 && qNum <= 155)) {
-            return { ...question, difficulty: DIFFICULTY_LEVELS.MEDIUM };
-        }
-
-        // Hard questions: Arts, entertainment, sports, basic Australian (q91-q135, q176-q235, q296-q315)
-        if ((qNum >= 91 && qNum <= 135) || (qNum >= 176 && qNum <= 235) || (qNum >= 296 && qNum <= 315)) {
-            return { ...question, difficulty: DIFFICULTY_LEVELS.HARD };
-        }
-
-        // BRUTAL questions: Etymology, obscure authors, colors, advanced Australian, all new categories (q236-q295, q316+)
-        // These are Jeopardy-level difficulty - extremely obscure
-        return { ...question, difficulty: DIFFICULTY_LEVELS.BRUTAL };
+        return { ...question, difficulty };
     });
+}
+
+// Fisher-Yates shuffle for better randomization
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
 }
 
 // Select questions for a game with proper difficulty progression
@@ -65,11 +78,11 @@ export function selectGameQuestions(allQuestions) {
     const hardQuestions = questionsWithDifficulty.filter(q => q.difficulty === DIFFICULTY_LEVELS.HARD);
     const brutalQuestions = questionsWithDifficulty.filter(q => q.difficulty === DIFFICULTY_LEVELS.BRUTAL);
 
-    // Shuffle each difficulty pool
-    const shuffledEasy = [...easyQuestions].sort(() => Math.random() - 0.5);
-    const shuffledMedium = [...mediumQuestions].sort(() => Math.random() - 0.5);
-    const shuffledHard = [...hardQuestions].sort(() => Math.random() - 0.5);
-    const shuffledBrutal = [...brutalQuestions].sort(() => Math.random() - 0.5);
+    // Use Fisher-Yates shuffle for better randomization
+    const shuffledEasy = shuffleArray(easyQuestions);
+    const shuffledMedium = shuffleArray(mediumQuestions);
+    const shuffledHard = shuffleArray(hardQuestions);
+    const shuffledBrutal = shuffleArray(brutalQuestions);
 
     // Select questions according to the prize ladder
     const gameQuestions = [];
