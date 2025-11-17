@@ -99,7 +99,7 @@ export function useGameState() {
             setScore(prev => ({ ...prev, incorrect: prev.incorrect + 1 }));
         }
 
-        // Auto-advance to next question after 2 seconds
+        // Auto-advance to next question after 0.5 seconds
         setTimeout(() => {
             const nextIndex = currentQuestionIndex + 1;
 
@@ -109,7 +109,7 @@ export function useGameState() {
                 setCurrentQuestionIndex(nextIndex);
                 setSelectedAnswer(null);
             }
-        }, 2000);
+        }, 500);
     };
 
     // Advance to next question

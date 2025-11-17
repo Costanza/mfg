@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines the requirements for expanding the Millionaire Flashcard Game's question bank to include a comprehensive collection of trivia questions across all standard trivia categories. The goal is to create the largest possible question bank that covers diverse topics and difficulty levels to provide users with extensive gameplay variety.
+This document outlines the requirements for further expanding the Millionaire Flashcard Game's question bank beyond the current 1,693 questions. The goal is to broaden the range of topics, add more diverse subject areas, and create an even more comprehensive question bank that provides users with virtually unlimited gameplay variety and covers a wider spectrum of knowledge domains.
 
 ## Glossary
 
@@ -15,31 +15,32 @@ This document outlines the requirements for expanding the Millionaire Flashcard 
 
 ### Requirement 1
 
-**User Story:** As a user, I want access to hundreds of trivia questions across diverse topics, so that I can enjoy extended gameplay without repetition
+**User Story:** As a user, I want access to thousands of trivia questions across diverse topics, so that I can enjoy extended gameplay without repetition
 
 #### Acceptance Criteria
 
-1. THE Question Bank SHALL contain a minimum of 200 unique trivia questions
-2. THE Question Bank SHALL organize questions across at least 10 standard trivia categories
+1. THE Question Bank SHALL expand beyond the current 1,693 questions to include at least 2,500 unique trivia questions
+2. THE Question Bank SHALL organize questions across at least 20 diverse trivia categories
 3. THE Question Bank SHALL maintain the existing JSON structure for compatibility with the Flashcard System
 4. THE Question Bank SHALL ensure each question has exactly four answer options with one correct answer
 
 ### Requirement 2
 
-**User Story:** As a user, I want questions covering standard trivia categories, so that I can test my knowledge across different subject areas
+**User Story:** As a user, I want questions covering both standard and specialized trivia categories, so that I can test my knowledge across a broader range of subject areas
 
 #### Acceptance Criteria
 
-1. THE Question Bank SHALL include questions from the Geography category
-2. THE Question Bank SHALL include questions from the History category
-3. THE Question Bank SHALL include questions from the Science category
-4. THE Question Bank SHALL include questions from the Arts and Literature category
-5. THE Question Bank SHALL include questions from the Entertainment category
-6. THE Question Bank SHALL include questions from the Sports category
-7. THE Question Bank SHALL include questions from the General Knowledge category
-8. THE Question Bank SHALL include questions from the Nature and Animals category
-9. THE Question Bank SHALL include questions from the Technology category
-10. THE Question Bank SHALL include questions from the Food and Drink category
+1. THE Question Bank SHALL expand existing categories: Geography, History, Science, Arts and Literature, Entertainment, Sports, General Knowledge, Nature and Animals, Technology, and Food and Drink
+2. THE Question Bank SHALL include questions from the Mathematics and Logic category
+3. THE Question Bank SHALL include questions from the Medicine and Health category
+4. THE Question Bank SHALL include questions from the Business and Economics category
+5. THE Question Bank SHALL include questions from the Language and Linguistics category
+6. THE Question Bank SHALL include questions from the Philosophy and Religion category
+7. THE Question Bank SHALL include questions from the Architecture and Engineering category
+8. THE Question Bank SHALL include questions from the Fashion and Design category
+9. THE Question Bank SHALL include questions from the Mythology and Folklore category
+10. THE Question Bank SHALL include questions from the Politics and Government category
+11. THE Question Bank SHALL include questions from the Music Theory and Instruments category
 
 ### Requirement 3
 

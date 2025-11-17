@@ -1,4 +1,6 @@
-# Implementation Plan
+
+
+w# Implementation Plan
 
 - [x] 1. Set up project structure and dependencies
   - Initialize React project with Vite
