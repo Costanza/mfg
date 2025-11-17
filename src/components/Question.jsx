@@ -1,5 +1,5 @@
 import AnswerOption from './AnswerOption';
-import './Question.css';
+import './Question-FIXED.css';
 
 function Question({
     question,
@@ -20,16 +20,17 @@ function Question({
                 aria-label="Answer options"
             >
                 {answers.map((answer, index) => (
-                    <AnswerOption
-                        key={index}
-                        text={answer}
-                        index={index}
-                        label={labels[index]}
-                        isSelected={selectedAnswer === index}
-                        isCorrect={correctAnswer === index}
-                        showFeedback={showFeedback}
-                        onSelect={onAnswerSelect}
-                    />
+                    <div key={index} className="answer-cell">
+                        <AnswerOption
+                            text={answer}
+                            index={index}
+                            label={labels[index]}
+                            isSelected={selectedAnswer === index}
+                            isCorrect={correctAnswer === index}
+                            showFeedback={showFeedback}
+                            onSelect={onAnswerSelect}
+                        />
+                    </div>
                 ))}
             </div>
             {showFeedback && (

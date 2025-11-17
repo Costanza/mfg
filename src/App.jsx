@@ -57,11 +57,13 @@ function App() {
   return (
     <div className="app" role="main">
       <h1>Millionaire Flashcard Game</h1>
-      {usingFallback && (
-        <div className="fallback-notice" role="alert">
-          <p>⚠️ Using sample questions. <button onClick={retryLoad} className="retry-link" aria-label="Retry loading questions from file">Try loading questions again</button></p>
-        </div>
-      )}
+      <div className="notice-container">
+        {usingFallback && (
+          <div className="fallback-notice" role="alert">
+            <p>⚠️ Using sample questions. <button onClick={retryLoad} className="retry-link" aria-label="Retry loading questions from file">Try loading questions again</button></p>
+          </div>
+        )}
+      </div>
       <ScoreBoard
         correct={score.correct}
         incorrect={score.incorrect}
